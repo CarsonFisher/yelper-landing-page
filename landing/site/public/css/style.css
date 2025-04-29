@@ -25,6 +25,7 @@ a:hover {
 header {
   background: #d32323;
   padding: 1.5rem 0;
+  text-align: center;
 }
 
 header h1 {
@@ -32,6 +33,8 @@ header h1 {
   color: #fff;
   text-align: center;
   font-size: 2.5rem;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 nav {
@@ -106,14 +109,15 @@ header {
 }
 
 .logo-link {
-  position: absolute;
-  top: 1.5rem;
-  left: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
 }
 
-/* Header logo: match site title height */
+/* Header logo: match the title height */
 header .site-logo {
-  height: 2.5rem;
+  /* Increase logo size by 50% above title height */
+  height: 3.75rem;
   width: auto;
 }
 
